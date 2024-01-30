@@ -1,0 +1,13 @@
+body {
+    background-color:black;
+}
+
+.volumebx {
+    display: flex;
+    flex-direction: column;
+}
+
+.volbutton  {
+    width: 45px;
+    height: auto;
+}
