@@ -74,6 +74,12 @@ body {
     font-size: 37.9px;
     margin-top: 3px;
 
+    transition: all ease-out 300ms;
+
+}
+
+.friends:hover {
+    letter-spacing: 2px;
 }
 
 .friendsbx {
@@ -98,6 +104,12 @@ body {
     font-size: 37.9px;
     margin-top: 3px;
 
+    transition: all ease-out 300ms;
+
+}
+
+.mixer:hover {
+    letter-spacing: 2px;
 }
 
 .mixerbx {
@@ -118,6 +130,12 @@ body {
 .icon {
     width: 40px;
     height: 40px;
+
+    transition: all ease-out 300ms;
+}
+
+.icon:hover {
+    translate: 0px -15px;
 }
 
 .toolbox {
