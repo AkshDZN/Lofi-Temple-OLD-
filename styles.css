@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'geistsemibold';
+    src: url('geist-semibold-webfont.woff2') format('woff2'),
+         url('geist-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.time {
+    color: white;
+    font-family: 'geistsemibold';
+    font-size: 50.5px;
+}
+
+.am {
+    color: white;
+    font-family: 'geistsemibold';
+    font-size: 15px;
+}
+
+.pm {
+    color: rgba(255, 255, 255, 0.408);
+    font-family: 'geistsemibold';
+    font-size: 15px;
+}
+
+.ampmbx {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 1px;
+}
+
+.timebx {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    gap: 8px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.screen {
+    display: flex;
+    width: 100%;
+    height: 98vh;
+}
