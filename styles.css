@@ -53,8 +53,84 @@ body {
     margin-bottom: 50px;
 }
 
-.screen {
+/* .screen {
     display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    border-style: dotted;
     width: 100%;
-    height: 98vh;
+
+} */
+
+.friendsicon {
+    width: 40px;
+    height: 40px;
+
+}
+
+.friends {
+    color: white;
+    font-family: 'geistsemibold';
+    font-size: 37.9px;
+    margin-top: 3px;
+
+}
+
+.friendsbx {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.mixericon {
+    width: 40px;
+    height: 40px;
+
+}
+
+.mixer {
+    color: white;
+    font-family: 'geistsemibold';
+    font-size: 37.9px;
+    margin-top: 3px;
+
+}
+
+.mixerbx {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.topbx {
+    justify-content: space-between;
+    display: flex;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.toolbox {
+    display: flex;
+    align-self: flex-end;
+    gap: 20px;
+    width: fit-content;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.bottombx {
+    display: flex;
+    justify-content: space-between;
+    height: 85vh;
 }
